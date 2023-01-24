@@ -1,0 +1,161 @@
+.services-head {
+  padding-top: 136px;
+  padding-bottom: 35px;
+}
+.services-head h1 {
+  font-style: 36px;
+  font-weight: 700;
+}
+.services-head p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.services-content {
+  padding-top: 55px;
+  padding-bottom: 100px;
+}
+.services-content-item {
+  margin-bottom: 22px;
+}
+@media screen and (min-width: 768px) {
+  .services-content-item:nth-of-type(even) .row {
+    flex-direction: row-reverse;
+  }
+  .services-content-item:nth-of-type(even) .row .services-content-item-left {
+    border-right: none;
+    border-left: 1px solid #d3d3d3;
+    justify-content: flex-start;
+  }
+  .services-content-item:nth-of-type(even) .row .services-content-item-left::after {
+    content: "";
+    position: absolute;
+    background-color: #0f529e;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    left: -8px;
+    top: -18px;
+  }
+  .services-content-item:nth-of-type(even) .row .services-content-item-left .services-content-img::after {
+    content: "";
+    position: absolute;
+    background-color: #f6f8fa;
+    height: 100%;
+    width: 100%;
+    top: 24px;
+    right: 24px;
+    left: auto;
+    border-radius: 24px;
+    z-index: -1;
+  }
+  .services-content-item:nth-of-type(even) .row .services-content-text {
+    text-align: right;
+  }
+}
+.services-content-item .services-content-item-left {
+  padding: 48px;
+  text-align: end;
+  border-right: 1px solid #d3d3d3;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.services-content-item .services-content-item-left::after {
+  content: "";
+  position: absolute;
+  background-color: #0f529e;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  right: -8px;
+  top: -18px;
+}
+.services-content-item .services-content-item-left .services-content-img {
+  max-width: 470px;
+  width: 100%;
+}
+.services-content-item .services-content-item-left .services-content-img img {
+  width: 100%;
+}
+.services-content-item .services-content-item-left .services-content-img::after {
+  content: "";
+  position: absolute;
+  background-color: #f6f8fa;
+  height: 100%;
+  width: 100%;
+  top: 24px;
+  left: 24px;
+  border-radius: 24px;
+  z-index: -1;
+}
+.services-content-item .services-content-item-right {
+  padding: 48px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.services-content-item .services-content-item-right .services-content-img::after {
+  content: "";
+  position: absolute;
+  background-color: #f6f8fa;
+  height: 100%;
+  width: 100%;
+  top: 24px;
+  right: 24px;
+  border-radius: 24px;
+  z-index: -1;
+}
+.services-content-item .services-content-text .services-title {
+  font-weight: 700;
+  font-size: 23px;
+  margin-bottom: 16px;
+  display: block;
+  text-decoration: none;
+}
+.services-content-item .services-content-text p {
+  margin-bottom: 34px;
+}
+.services-content-item .services-content-img {
+  max-width: 470px;
+  position: relative;
+}
+.services-content-item .services-content-img img {
+  border-radius: 16px;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .services-content-item .services-content-item-left,
+  .services-content-item .services-content-item-right {
+    padding: 15px;
+  }
+  .services-content-item .services-content-item-left .services-content-text .services-title,
+  .services-content-item .services-content-item-right .services-content-text .services-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .services-content-item .services-content-item-left .services-content-text p,
+  .services-content-item .services-content-item-right .services-content-text p {
+    margin-bottom: 14px;
+  }
+  .services-content-item .services-content-item-left .services-content-img::after,
+  .services-content-item .services-content-item-right .services-content-img::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services-content-item .services-content-item-left {
+    border-right: none;
+  }
+  .services-content-item .services-content-item-left::after {
+    display: none;
+  }
+  .services-content-item .services-content-item-right .services-content-text .services-title {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
