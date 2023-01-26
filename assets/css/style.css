@@ -879,8 +879,8 @@ section {
 
 .services .service-box .icon {
   font-size: 36px;
-  padding: 40px 20px;
-  border-radius: 4px;
+  padding: 20px 20px;
+  border-radius: 50%;
   position: relative;
   margin-bottom: 25px;
   display: inline-block;
@@ -935,6 +935,10 @@ section {
   background: #d9ebfd;
 }
 
+.services .service-box .icon img {
+  color: #0f529e;
+}
+
 .services .service-box .read-more {
   color: #0f529e;
 }
@@ -949,6 +953,11 @@ section {
 }
 
 .services .service-box.orange .icon {
+  color: #0f529e;
+  background: #d9ebfd;
+}
+
+.services .service-box.orange .img {
   color: #0f529e;
   background: #d9ebfd;
 }
@@ -2506,54 +2515,68 @@ section {
   color: #012970;
 }
 
-.Product_sec{ 
+/* [data-aos="my-animation"] {
+  transform: rotate(360deg) scale(0.5);
+  opacity: 0;
+  transition-property: transform, opacity;
+  transition-delay: 5000s;
+}
+/* After animation */
+/* [data-aos="my-animation"].aos-animate {
+  transform: rotate(0) scale(1);
+  opacity: 1;
+} */
+
+ /* .services{ 
   width: 100%; 
   text-align: center; 
-}
+  padding-top: 15%;
+  padding-right: 15% ;
+  padding-left: 10%;
+} */
 
-.Product_sec li{ 
+/* .services li{ 
   padding: 0px 0px 90px 0px; 
   margin: 0px; 
 }
 
-.Product_sec li .right { 
+.services li .right { 
   width: 100%; 
   float: none; 
 }
 
-.Product_sec li .right .img { 
+.services li .right .img { 
   margin: auto; 
-  float: none; 
   padding-bottom: 30px;
 }
 
-.Product_sec li .right .Details { 
+.services li .right .Details { 
   width: 100%; 
   text-align: center; 
 }
-.Product_sec li .right .Details p { 
+.services li .right .Details p { 
   text-align: center; 
 }
-.Product_sec li .Details a { 
+.services li .Details a { 
   margin: auto; 
   float: none; 
 }
 
-.Product_sec li .left {  
+.services li .left {  
   width: 100%; 
   float: none; 
   padding-left: 0px; 
 }
 
-.Product_sec li .left .img { 
+.services li .left .img { 
   margin: auto; 
   float: none; 
   padding-bottom: 30px;
 }
-.Product_sec li .left .Details { 
+.services li .left .Details { 
   width: 100%; 
   text-align: center; 
 }
-.Product_sec li .left .Details p { 
+.services li .left .Details p { 
   text-align: center; 
-}
+} */ 
