@@ -2428,6 +2428,12 @@ section {
     background-position: center bottom;
   }
 }
+@media (max-width: 768px) {
+  .footer  {
+   
+    justify-content: center;
+  }
+}
 
 .footer .footer-top .footer-info {
   margin-bottom: 30px;
