@@ -4,17 +4,40 @@
   }
   .services li .right {
     width: 71.75%;
-
+    float: right;
   }
   .services li .left {
     width: 71.75%;
+    float: left;
   }
 
+  .service-title h1{
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    padding-top: 7%;
+    color: #e3e7fd;
+    margin-bottom: -150px;
+  }
+
+  .service-title .desc p {
+    color: #0b198f;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    padding-left: 5%;
+    max-width: 900px;
+  }
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
  
+  .service-title{
+    width: 100%;
+  }
   .services {
     width: 100%;
   }
@@ -28,6 +51,20 @@
   }
   .services li .left {
     width: 100%;
+  }
+
+  .service-title h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    padding-top: 15%;
+    color: #e3e7fd;
+
+  }
+  .service-title .desc p {
+  display: none;
   }
 }
 
@@ -81,11 +118,34 @@
     text-align: center;
   }
 
+  .service-title .desc p {
+    display: none;
+    }
+
+  .service-title h1{
+    font-size: 80px;
+    margin-top: 35%;
+  }
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
+@media only screen and (min-width: 320px) and (max-width: 479px) {
   
+.service-title{
+  width: 100%;
+  height: 80vh;
+}
+
+  .service-title .desc p {
+    display: none;
+  }
+ 
+   .service-title h1{
+     font-size: 60px;
+     margin-top: 50%;
+     text-align: center;
+   }
+
   .services {
     width: 100%;
     text-align: center;
