@@ -1761,7 +1761,7 @@ section {
   text-align: center;
   margin-left: 25px;
   margin-right: 25px;
-	min-height: 300px;
+	/* min-height: 300px; */
 	margin: 0 auto;
 }
 
