@@ -98,6 +98,84 @@ h6 {
     color: #012970;
     text-align: center;
 }
+.service-banner-container{
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.overlay-text-service{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.service-banner-row{
+  height: 400px;
+}
+.col-4-div-services{
+  border-radius: 15px;
+  background-color: rgba(0,0,0,.5);
+
+  color: white;
+  margin: 10px;
+}
+.col-6-div-services{
+  background-color: rgba(0,0,0,.7);
+
+  color: white;
+  margin: 10px;
+  border-radius: 15px;
+}
+.card-services-cl-4 {
+  margin: auto;
+  font-size: 38px;
+    /* line-height: 42px; */
+    font-weight: 700;
+    z-index: 999;
+
+  /* height: 200px;
+  width: 200px; */
+  /* max-width: 100%; */
+  /* font-size: 50px;
+  background-color: black ;
+  height: 300px;
+  width: 500px;
+  align-items: center;
+  opacity: 0.5;
+  padding: 40px;
+  color: white; */
+ 
+
+  
+
+}
+.card-services-cl-6 {
+ padding: 40px;
+  font-size: 15px;
+    /* line-height: 42px; */
+    /* font-weight: 700;
+    z-index: 999; */
+
+  /* height: 200px;
+  width: 200px; */
+  /* max-width: 100%; */
+  /* font-size: 50px;
+  background-color: black ;
+  height: 300px;
+  width: 500px;
+  align-items: center;
+  opacity: 0.5;
+  padding: 40px;
+  color: white; */
+ 
+
+  
+
+}
+/* .card-services .p {
+  font-size: 20px;
+} */
 /* .centered {
   position: absolute;
   top: 50%;
