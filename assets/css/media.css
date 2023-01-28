@@ -38,6 +38,28 @@
     padding-left: 5%;
     max-width: 900px;
   }
+  .services li .left .Details {
+    width: 55%;
+    float: left;
+    text-align: right;
+    margin-top: 8%;
+  }
+  .services li .right .Details {
+    width: 55%;
+    float: left;
+    text-align: right;
+    margin-top: 5%;
+  }
+  .services li .left .img img {
+    
+    border-radius: 15px;
+    box-shadow: 20px 20px #ecf3ff;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    
+  }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
