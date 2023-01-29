@@ -105,29 +105,50 @@ h6 {
 }
 .overlay-text-service{
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 999;
+  /* z-index: 999; */
 }
 .service-banner-row{
-  height: 400px;
+  height: 350px;
 }
 .col-4-div-services{
   border-radius: 15px;
   background-color: rgba(0,0,0,.5);
-
+  /* height: 330px;
+   */
+   height: 100%;
+  width: 250px;
+  text-align: left !important;
   color: white;
-  margin: 10px;
+ 
 }
+.col-md-5-services {
+  position: relative;
+}
+/* .card-services-cl-4{
+  text-align: left;
+} */
 .col-6-div-services{
+  position: absolute;
+  top: 50%;
+  font-weight: 600;
+  transform: translate(0%, -50%);
+  
   background-color: rgba(0,0,0,.7);
+  padding: 30px;
+  height: max-content;
+  /* width: 90%; */
+  /* width: 250px; */
+  /* margin-top: 10% !important; */
 
   color: white;
-  margin: 10px;
+  /* margin: 10px; */
   border-radius: 15px;
 }
 .card-services-cl-4 {
+  /* text-align: center; */
   margin: auto;
   font-size: 38px;
     /* line-height: 42px; */
@@ -151,26 +172,10 @@ h6 {
 
 }
 .card-services-cl-6 {
- padding: 40px;
+ /* padding: 40px; */
   font-size: 15px;
-    /* line-height: 42px; */
-    /* font-weight: 700;
-    z-index: 999; */
+  text-align: left;
 
-  /* height: 200px;
-  width: 200px; */
-  /* max-width: 100%; */
-  /* font-size: 50px;
-  background-color: black ;
-  height: 300px;
-  width: 500px;
-  align-items: center;
-  opacity: 0.5;
-  padding: 40px;
-  color: white; */
- 
-
-  
 
 }
 /* .card-services .p {
@@ -2656,6 +2661,9 @@ section {
 
 @media only screen and (min-width: 767px) and (max-width: 992px) {
 
+  .navbar ul{
+    height: fit-content;
+  }
   .slideshow-container {
     position: relative;
     text-align: center;
@@ -2682,7 +2690,7 @@ section {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 999;
+    /* z-index: 999; */
   }
 
   .footer .footer-top .footer-contact h4{
@@ -2827,6 +2835,10 @@ section {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 375px) {
+  .navbar ul{
+    height: fit-content;
+  }
+
   .footer .footer-top .footer-links{
    margin-left: 35%;
   }

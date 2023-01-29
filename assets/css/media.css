@@ -170,6 +170,22 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  .col-6-div-services{
+    position: absolute;
+    top: 0%;
+    transform: translate(0%, 0%);
+    background-color: rgba(0,0,0,.7);
+    padding: 15px;
+    height: max-content;
+    margin-top: 10%;
+    /* width: 90%; */
+    /* width: 250px; */
+    /* margin-top: 10% !important; */
+    color: white;
+    /* margin: 10px; */
+    border-radius: 15px;
+  }
   
 .service-title{
   width: 100%;
