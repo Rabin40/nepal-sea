@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #0f529e;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ h6 {
   font-size: 38px;
     line-height: 42px;
     font-weight: 700;
-    color: #012970;
+    color: #0f529e;
     text-align: center;
 }
 .service-banner-container{
@@ -217,7 +217,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: #0f529e;
 }
 
 @media (max-width: 768px) {
@@ -706,14 +706,14 @@ section {
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #0f529e;;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: #0f529e;
 }
 
 .about p {
@@ -927,7 +927,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: #0f529e;
 }
 
 .features .feature-icons .content .icon-box i {
@@ -2417,6 +2417,13 @@ section {
   border-radius: 0 4px 4px 0;
   line-height: 0;
 }
+.about-img{
+  border-radius: 20px;
+}
+
+.box {
+  min-height: 300px;
+}
 
 .blog .sidebar .search-form form button i {
   line-height: 0;
@@ -2596,15 +2603,15 @@ section {
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: #0f529e;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
 }
 
-.footer .footer-top .footer-links {
+/* .footer .footer-top .footer-links {
   margin-bottom: 30px;
-}
+} */
 
 .footer .footer-top .footer-links ul {
   list-style: none;
@@ -2623,6 +2630,7 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  text-align: center !important;
 }
 
 .footer .footer-top .footer-links ul li:first-child {
@@ -2702,26 +2710,6 @@ section {
     /* z-index: 999; */
   }
 
-  .footer .footer-top .footer-contact h4{
-    margin-left: 70%;
-    margin-top: 1%
-}
-  
-  .footer .footer-top .footer-contact p{
-      float: right;
-      text-align: left !important;
-  }
-
-  .footer .footer-top .footer-links ul {
-    margin-bottom: -77%;
-  }
-  .footer .footer-top .links{
-    margin-top: 18%;
-  }
-
-  .footer .footer-top .footer-info{
-    margin-bottom: -55px
-  }
 }
 
 
@@ -2744,26 +2732,7 @@ section {
     margin-bottom: 10%;
   }
 
-  .footer .footer-top .footer-contact h4{
-    margin-left: 31%;
-    margin-top: -6%
-}
-  
-  .footer .footer-top .footer-contact p{
-      float: right;
-      text-align: left !important;
-  }
 
-  .footer .footer-top .footer-links ul {
-    margin-bottom: -77%;
-  }
-  .footer .footer-top .links{
-    margin-top: 18%;
-  }
-
-  .footer .footer-top .footer-info{
-    margin-bottom: -55px
-  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 577px) {
@@ -2775,25 +2744,6 @@ section {
     margin-bottom: 10%;
   }
 
-  .footer .footer-top .footer-contact h4{
-    margin-left: 35%;
-}
-  
-  .footer .footer-top .footer-contact p{
-      float: right;
-      text-align: left !important;
-  }
-
-  .footer .footer-top .footer-links ul {
-    margin-bottom: -81%;
-  }
-  .footer .footer-top .links{
-    margin-top: 18%;
-  }
-
-  .footer .footer-top .footer-info{
-    margin-bottom: -55px
-  }
 }
 
 @media only screen and (min-width: 429px) and (max-width: 480px) {
@@ -2802,36 +2752,16 @@ section {
     display: none;
   }
 
-  .footer .footer-top .footer-links{
-   margin-left: 35%;
-  }
-
-  .footer .footer-top .links{
-    margin-right: -3%;
-  }
-
   .footer .footer-top .footer-info p{
     display: none;
   }
 
   .footer .footer-top .footer-info .logo img{
     max-width: 250px;
-    margin-left: 85px;
   }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 430px) {
-  .footer .footer-top .footer-links{
-   margin-left: 35%;
-  }
-
-  .footer .footer-top .links{
-    margin-right: -3%;
-  }
-
-  .footer .footer-top .footer-info p{
-    display: none;
-  }
 
   .footer .footer-top .footer-info .logo img{
     max-width: 250px;
@@ -2848,17 +2778,6 @@ section {
     height: fit-content;
   }
 
-  .footer .footer-top .footer-links{
-   margin-left: 35%;
-  }
-
-  .footer .footer-top .links{
-    margin-right: -3%;
-  }
-
-  .footer .footer-top .footer-info p{
-    display: none;
-  }
 
   .footer .footer-top .footer-info .logo img{
     max-width: 250px;

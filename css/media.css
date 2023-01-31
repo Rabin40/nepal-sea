@@ -24,13 +24,16 @@
 		max-width: 100%;
 	}
 
-	.row {
-		flex-direction: column-reverse;
-	}
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+	.img-fluid {
+		position: absolute;
+		top: 27%;
+		left: 8%;
+	}
 
 	.services_sec {
 		width: 100%;
@@ -62,11 +65,14 @@
 
 	.img-fluid {
 		position: absolute;
-		max-width: 350px;
-		left: 51%;
-		top: 194px;
+		max-width: 300px;
+		left: 50%;
+		top: 120px;
 	}
 
+	#hero-banner p{
+		max-width: 295px;
+	}
 	.services_sec {
 		width: 100%;
 		text-align: center;
@@ -144,14 +150,13 @@
 	#hero-banner h1{
 		text-align: center;
 		position: relative;
-		left: 50%;
 	}
 
 	.img-fluid {
 		position: absolute;
-		max-width: 350px;
-		top: 295px;
-		left: 55px;
+		max-width: 320px;
+		top: 150px;
+		left: 10%;
 	}
 
 	.services_sec {
